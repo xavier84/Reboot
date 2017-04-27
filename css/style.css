@@ -2,35 +2,14 @@
 
 @font-face
 {
-    font-family: 'BallparkWeiner';
-    src: url('polices/ballpark.eot');
-    src: url('polices/ballpark.eot?#iefix') format('embedded-opentype'),
-         url('polices/ballpark.woff') format('woff'),
-         url('polices/ballpark.ttf') format('truetype'),
-         url('polices/ballpark.svg#BallparkWeiner') format('svg');
+    font-family: 'bebas_neueregular';
+    src: url('bebasneue-webfont.eot');
+    src: url('bebasneue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('bebasneue-webfont.woff') format('woff'),
+         url('bebasneue-webfont.ttf') format('truetype'),
+         url('bebasneue-webfont.svg#bebas_neueregular') format('svg');
     font-weight: normal;
     font-style: normal;
-}
-
-@font-face
-{
-    font-family: 'Dayrom';
-    src: url('polices/dayrom.eot');
-    src: url('polices/dayrom.eot?#iefix') format('embedded-opentype'),
-         url('polices/dayrom.woff') format('woff'),
-         url('polices/dayrom.ttf') format('truetype'),
-         url('polices/dayrom.svg#Dayrom') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-/* Eléments principaux de la page */
-
-body
-{
-    background: url('images/fond_jaune.png');
-    font-family: 'Trebuchet MS', Arial, sans-serif;
-    color: #181818;
 }
 
 #bloc_page
@@ -49,7 +28,7 @@ section h1, footer h1, nav a
 
 header h1
 {
-    font-family: 'BallparkWeiner', serif;
+    font-family: 'bebas_neueregular', serif;
     font-size: 2.5em;
     font-weight: normal;
     margin: 0 0 0 10px;
