@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="../css/style.css" />
         <title>RatXaBox Reboot</title>
     </head>
 
@@ -11,10 +11,17 @@
             <h1>RatXaBox Reboot</h1>
         </header>
 
-        <nav>
-            <ul>
-                <li><a href="service/couchpotato.php">Couchpotato</a></li>
-                <li><a href="service/sickrage.php">Sickrage</a></li>
+    <nav>
+  		  <ul>
+      		    <FORM Method="POST" Action="./script/reboot.php">
+				Nom de l'utilisateur : <input type=text size=20 name=NAME>
+				<SELECT name="SERVICE" size="1">
+					<option selected disabled>Choisir un service</option>
+					<option value="couchpotato">Couchpotato</option>
+					<option value="sickrage">Sickrage</option>
+				</SELECT>
+				<INPUT type=submit value=Reboot>
+				</FORM>
             </ul>
         </nav>
 
