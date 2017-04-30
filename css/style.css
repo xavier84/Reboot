@@ -12,6 +12,12 @@
     font-style: normal;
 }
 
+body
+{
+    background-color: #3a3a3a;
+
+}
+
 #bloc_page
 {
     width: 900px;
@@ -20,7 +26,7 @@
 
 section h1, footer h1, nav a
 {
-    font-family: Dayrom, serif;
+    font-family: 'bebas_neueregular', serif;
     font-weight: normal;
     text-transform: uppercase;
 }
