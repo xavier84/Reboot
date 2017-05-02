@@ -13,6 +13,6 @@ echo $service;
 ?>
 
 <?php
-$output = shell_exec('/var/www/reboot/script/reboot.sh '.$NAME.' '.$SERVICE.'');
+$output = shell_exec('/var/www/base/reboot/script/reboot.sh '.$NAME.' '.$SERVICE.'');
 echo "<pre>$output</pre>";
 ?>
