@@ -33,6 +33,11 @@ color: white;
 text-decoration: none;
 }
 
+#retour
+{
+    text-align: center;
+}
+
 #movemonkey {
     display: inline-block;
     opacity: 0.5;
