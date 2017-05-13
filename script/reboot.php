@@ -4,8 +4,8 @@
 	<head>
 		<meta charset="utf-8" />
 		<title>Accueil RatXabox</title>
-        <link rel="icon" type="image/png" href="favicon.png">
-		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+        <link rel="icon" type="image/png" href="../favicon.png">
+		<link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
 		<link rel="stylesheet" type="text/css" href="../style/style.css">
 		<link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
         <script type="application/javascript">
