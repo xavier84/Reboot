@@ -51,12 +51,14 @@
 			<?php
 			$NAME = $_POST['NAME'];
 			$SERVICE = $_POST['SERVICE'];
+			$SERVICE1 = $_POST['SERVICE1'];
 			echo "<b>Reboot de:</b><br>";
 			echo "$NAME<br>";
 			echo "$SERVICE";
+			echo "$SERVICE1";
 			?>
 			<?php
-			$output = shell_exec('/var/www/reboot/script/reboot.sh '.$NAME.' '.$SERVICE.'');
+			$output = shell_exec('/var/www/reboot/script/reboot.sh '.$NAME.' '.$SERVICE.' '.$SERVICE1.'');
 			echo "<pre>$output</pre>";
 			?>
 		</div>
